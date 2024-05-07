@@ -7,4 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".About">
 
+    <WebView
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

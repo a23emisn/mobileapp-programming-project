@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">The Mushroom Handbook</string>
-    <string name="info_page">About</string>
+    <string name="app_name">Svamphandboken</string>
+    <string name="info_page">Om</string>
 </resources>

@@ -35,10 +35,10 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.title.setText(mushrooms.get(position).getName());
-        holder.location.setText("Grows in: " + mushrooms.get(position).getLocation() + ".");
-        holder.edibility.setText("Edibility: " + mushrooms.get(position).getEdibility()+ ".");
-        holder.price.setText("Price: " + mushrooms.get(position).getPrice() + " sek/kg.");
-        holder.height.setText("Height: c:a  " + mushrooms.get(position).getHeight() + " cm.");
+        holder.location.setText("Växer i: " + mushrooms.get(position).getLocation() + ".");
+        holder.edibility.setText("Ätlighet: " + mushrooms.get(position).getEdibility()+ ".");
+        holder.price.setText("Pris: " + mushrooms.get(position).getPrice() + " kr/kg.");
+        holder.height.setText("Höjd: c:a  " + mushrooms.get(position).getHeight() + " cm.");
         Picasso.get().load(mushrooms.get(position).getMushroomPic()).into(holder.mushroompic);
     }
 

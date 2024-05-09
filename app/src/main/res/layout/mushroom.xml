@@ -13,6 +13,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/text"
         android:textSize="21sp"/>
 
     <TextView
@@ -22,6 +23,7 @@
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/text"
         android:textSize="15sp"/>
 
     <TextView
@@ -31,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/location"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/text"
         android:textSize="15sp"/>
 
     <TextView
@@ -40,6 +43,7 @@
         app:layout_constraintTop_toBottomOf="@id/edibility"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/text"
         android:textSize="15sp"/>
 
     <TextView
@@ -48,6 +52,7 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/height"
         app:layout_constraintLeft_toLeftOf="parent"
+        android:textColor="@color/text"
         android:textSize="15sp"/>
 
     <ImageView
